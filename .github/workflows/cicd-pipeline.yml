@@ -142,3 +142,4 @@ jobs:
             cd ~/app-receiver-iot
             sudo docker compose --profile app pull
             sudo docker compose --profile app up -d          
+
