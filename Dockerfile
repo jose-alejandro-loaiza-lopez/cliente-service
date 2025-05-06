@@ -1,6 +1,6 @@
 # Usar una imagen base de OpenJDK
 FROM openjdk:21-jdk-slim
-LABEL authors="alvaro-salazar"
+LABEL authors="joseloaiza01"
 # Establecer el directorio de trabajo dentro del contenedor
 WORKDIR /app
 

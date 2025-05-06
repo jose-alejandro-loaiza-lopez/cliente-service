@@ -16,7 +16,7 @@ services:
       - red-backend-app
 
   cliente-service:
-    image: 'alvarosalazar/cliente-service:latest'
+    image: 'joseloaiza01/cliente-service:latest'
     ports:
       - '8080:8080'
     depends_on:
