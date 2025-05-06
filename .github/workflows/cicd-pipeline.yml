@@ -89,7 +89,7 @@ jobs:
           docker push joseloaiza01/cliente-service:latest
 
   deploy:
-    if: false
+    if: true
     needs: build-and-publish
     runs-on: ubuntu-latest
 
